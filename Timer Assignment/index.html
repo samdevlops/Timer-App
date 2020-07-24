@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Timer Assignment</title>
+    <script  src="index.js"></script>
+   <style>
+       .container{
+        display: inline-block; margin: 200 0 0 600 ;
+       }
+       
+       #box1{
+        display: inline-block;
+         border: 2px solid black; 
+         height: 200px; 
+         width:200px;
+         text-align: center;
+       }
+       #box2{
+           text-align: center;
+       }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1"  >
+            <h3>Privado Timer</h3>
+            <div>
+                <h1 id="minutes">00</h1>
+            </div>
+            <button id="btn" onclick="start()">Start</button>
+        </div>
+        <div id="box2" >
+            <br>
+            <input type="number" id="changeMax" placeholder="Enter Maximum">
+            <br>
+            <br>
+            <button onclick="max()">Change Maximum</button>
+        </div>
+          
+    </div>
+    
+</body>
+</html>
